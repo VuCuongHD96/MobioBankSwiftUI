@@ -13,6 +13,9 @@
 		A41F201627DF48C30092E071 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A41F201527DF48C30092E071 /* Assets.xcassets */; };
 		A41F201927DF48C30092E071 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A41F201827DF48C30092E071 /* Preview Assets.xcassets */; };
 		A41F201C27DF48C30092E071 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A41F201A27DF48C30092E071 /* LaunchScreen.storyboard */; };
+		A41F202827DF48FD0092E071 /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A41F202727DF48FD0092E071 /* LoginView.swift */; };
+		A41F202C27DF4B390092E071 /* LanguageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A41F202B27DF4B390092E071 /* LanguageView.swift */; };
+		A41F203027DF4E4F0092E071 /* Screen.swift in Sources */ = {isa = PBXBuildFile; fileRef = A41F202F27DF4E4F0092E071 /* Screen.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +27,9 @@
 		A41F201827DF48C30092E071 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		A41F201B27DF48C30092E071 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A41F201D27DF48C30092E071 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A41F202727DF48FD0092E071 /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
+		A41F202B27DF4B390092E071 /* LanguageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LanguageView.swift; sourceTree = "<group>"; };
+		A41F202F27DF4E4F0092E071 /* Screen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Screen.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +62,8 @@
 		A41F200E27DF48C30092E071 /* MobioBankSwiftUI */ = {
 			isa = PBXGroup;
 			children = (
+				A41F202E27DF4E400092E071 /* Utils */,
+				A41F202427DF48DC0092E071 /* Scenes */,
 				A41F200F27DF48C30092E071 /* AppDelegate.swift */,
 				A41F201127DF48C30092E071 /* SceneDelegate.swift */,
 				A41F201327DF48C30092E071 /* ContentView.swift */,
@@ -73,6 +81,31 @@
 				A41F201827DF48C30092E071 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		A41F202427DF48DC0092E071 /* Scenes */ = {
+			isa = PBXGroup;
+			children = (
+				A41F202627DF48F00092E071 /* Login */,
+			);
+			path = Scenes;
+			sourceTree = "<group>";
+		};
+		A41F202627DF48F00092E071 /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				A41F202727DF48FD0092E071 /* LoginView.swift */,
+				A41F202B27DF4B390092E071 /* LanguageView.swift */,
+			);
+			path = Login;
+			sourceTree = "<group>";
+		};
+		A41F202E27DF4E400092E071 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				A41F202F27DF4E4F0092E071 /* Screen.swift */,
+			);
+			path = Utils;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -147,7 +180,10 @@
 			files = (
 				A41F201027DF48C30092E071 /* AppDelegate.swift in Sources */,
 				A41F201227DF48C30092E071 /* SceneDelegate.swift in Sources */,
+				A41F202827DF48FD0092E071 /* LoginView.swift in Sources */,
 				A41F201427DF48C30092E071 /* ContentView.swift in Sources */,
+				A41F202C27DF4B390092E071 /* LanguageView.swift in Sources */,
+				A41F203027DF4E4F0092E071 /* Screen.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
