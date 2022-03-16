@@ -10,7 +10,6 @@ import SwiftUI
 struct LoginView: View {
     
     @State private var email = ""
-    let textFieldColor = Color(#colorLiteral(red: 0, green: 0.5333333333, blue: 0.8588235294, alpha: 0.5))
     
     var body: some View {
         
