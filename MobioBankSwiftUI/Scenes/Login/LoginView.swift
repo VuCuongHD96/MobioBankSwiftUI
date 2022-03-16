@@ -20,7 +20,7 @@ struct LoginView: View {
                 LanguageView()
                     .padding(.top, 76)
                     .padding(.trailing, 16)
-                    .frame(width: Screen.width, alignment: .trailing)
+                    .frame(maxWidth: .infinity, alignment: .trailing)
                 Image("logo")
                     .padding(.top, 47)
                 LoginTextField(placeHolderText: "Email/ Số điện thoại")
@@ -39,7 +39,7 @@ struct LoginView: View {
                     .padding(.top, 24)
                 Spacer()
             }
-            .frame(width: Screen.width, alignment: .center)
+            .frame(maxWidth: .infinity, alignment: .center)
         }
         .ignoresSafeArea()
     }

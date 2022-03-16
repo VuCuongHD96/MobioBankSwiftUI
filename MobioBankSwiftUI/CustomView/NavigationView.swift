@@ -34,7 +34,7 @@ struct NavigationView: View {
             }
             .padding(.bottom, 10)
         }
-        .frame(width:Screen.width, height: 88)
+        .frame(maxWidth: .infinity, maxHeight: 88)
         .clipShape(Rectangle())
         .overlay(
             Rectangle().stroke(Color.gray, lineWidth: 0.5)

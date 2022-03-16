@@ -40,7 +40,7 @@ struct LoginButtonView_Previews: PreviewProvider {
     
     static var previews: some View {
         LoginButtonView(action: LoginButtonView_Previews.showData)
-            .frame(width: Screen.width, height: Screen.height, alignment: .center)
+            .frame(maxWidth: .infinity, maxHeight: .infinity, alignment: .center)
             .background(Color.green)
             .ignoresSafeArea()
     }
