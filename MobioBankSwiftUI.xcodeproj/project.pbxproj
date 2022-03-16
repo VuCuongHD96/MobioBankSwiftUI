@@ -7,18 +7,23 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A40BB1B327E04C6900D9BF7B /* LoginButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A40BB1B227E04C6900D9BF7B /* LoginButtonView.swift */; };
+		A411973427E08FA40081DD13 /* LoginTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = A411973327E08FA40081DD13 /* LoginTextField.swift */; };
 		A41F201027DF48C30092E071 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A41F200F27DF48C30092E071 /* AppDelegate.swift */; };
 		A41F201227DF48C30092E071 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A41F201127DF48C30092E071 /* SceneDelegate.swift */; };
 		A41F201427DF48C30092E071 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A41F201327DF48C30092E071 /* ContentView.swift */; };
 		A41F201627DF48C30092E071 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A41F201527DF48C30092E071 /* Assets.xcassets */; };
 		A41F201927DF48C30092E071 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A41F201827DF48C30092E071 /* Preview Assets.xcassets */; };
 		A41F201C27DF48C30092E071 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A41F201A27DF48C30092E071 /* LaunchScreen.storyboard */; };
-		A41F202827DF48FD0092E071 /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A41F202727DF48FD0092E071 /* LoginView.swift */; };
-		A41F202C27DF4B390092E071 /* LanguageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A41F202B27DF4B390092E071 /* LanguageView.swift */; };
-		A41F203027DF4E4F0092E071 /* Screen.swift in Sources */ = {isa = PBXBuildFile; fileRef = A41F202F27DF4E4F0092E071 /* Screen.swift */; };
+		A41F203527DF58F40092E071 /* Screen.swift in Sources */ = {isa = PBXBuildFile; fileRef = A41F203427DF58F40092E071 /* Screen.swift */; };
+		A41F203F27DF59860092E071 /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A41F203D27DF59860092E071 /* LoginView.swift */; };
+		A41F204027DF59860092E071 /* LanguageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A41F203E27DF59860092E071 /* LanguageView.swift */; };
+		A43A72BD27E178CD006DEA88 /* TouchIDButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = A43A72BC27E178CD006DEA88 /* TouchIDButton.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		A40BB1B227E04C6900D9BF7B /* LoginButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginButtonView.swift; sourceTree = "<group>"; };
+		A411973327E08FA40081DD13 /* LoginTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginTextField.swift; sourceTree = "<group>"; };
 		A41F200C27DF48C30092E071 /* MobioBankSwiftUI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MobioBankSwiftUI.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A41F200F27DF48C30092E071 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A41F201127DF48C30092E071 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -27,9 +32,10 @@
 		A41F201827DF48C30092E071 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		A41F201B27DF48C30092E071 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A41F201D27DF48C30092E071 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		A41F202727DF48FD0092E071 /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
-		A41F202B27DF4B390092E071 /* LanguageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LanguageView.swift; sourceTree = "<group>"; };
-		A41F202F27DF4E4F0092E071 /* Screen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Screen.swift; sourceTree = "<group>"; };
+		A41F203427DF58F40092E071 /* Screen.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Screen.swift; sourceTree = "<group>"; };
+		A41F203D27DF59860092E071 /* LoginView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
+		A41F203E27DF59860092E071 /* LanguageView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LanguageView.swift; sourceTree = "<group>"; };
+		A43A72BC27E178CD006DEA88 /* TouchIDButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TouchIDButton.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,8 +68,8 @@
 		A41F200E27DF48C30092E071 /* MobioBankSwiftUI */ = {
 			isa = PBXGroup;
 			children = (
+				A41F203B27DF59860092E071 /* Scenes */,
 				A41F202E27DF4E400092E071 /* Utils */,
-				A41F202427DF48DC0092E071 /* Scenes */,
 				A41F200F27DF48C30092E071 /* AppDelegate.swift */,
 				A41F201127DF48C30092E071 /* SceneDelegate.swift */,
 				A41F201327DF48C30092E071 /* ContentView.swift */,
@@ -83,29 +89,32 @@
 			path = "Preview Content";
 			sourceTree = "<group>";
 		};
-		A41F202427DF48DC0092E071 /* Scenes */ = {
+		A41F202E27DF4E400092E071 /* Utils */ = {
 			isa = PBXGroup;
 			children = (
-				A41F202627DF48F00092E071 /* Login */,
+				A41F203427DF58F40092E071 /* Screen.swift */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		A41F203B27DF59860092E071 /* Scenes */ = {
+			isa = PBXGroup;
+			children = (
+				A41F203C27DF59860092E071 /* Login */,
 			);
 			path = Scenes;
 			sourceTree = "<group>";
 		};
-		A41F202627DF48F00092E071 /* Login */ = {
+		A41F203C27DF59860092E071 /* Login */ = {
 			isa = PBXGroup;
 			children = (
-				A41F202727DF48FD0092E071 /* LoginView.swift */,
-				A41F202B27DF4B390092E071 /* LanguageView.swift */,
+				A41F203D27DF59860092E071 /* LoginView.swift */,
+				A411973327E08FA40081DD13 /* LoginTextField.swift */,
+				A43A72BC27E178CD006DEA88 /* TouchIDButton.swift */,
+				A41F203E27DF59860092E071 /* LanguageView.swift */,
+				A40BB1B227E04C6900D9BF7B /* LoginButtonView.swift */,
 			);
 			path = Login;
-			sourceTree = "<group>";
-		};
-		A41F202E27DF4E400092E071 /* Utils */ = {
-			isa = PBXGroup;
-			children = (
-				A41F202F27DF4E4F0092E071 /* Screen.swift */,
-			);
-			path = Utils;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -178,12 +187,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A41F203527DF58F40092E071 /* Screen.swift in Sources */,
+				A43A72BD27E178CD006DEA88 /* TouchIDButton.swift in Sources */,
+				A411973427E08FA40081DD13 /* LoginTextField.swift in Sources */,
+				A41F203F27DF59860092E071 /* LoginView.swift in Sources */,
 				A41F201027DF48C30092E071 /* AppDelegate.swift in Sources */,
 				A41F201227DF48C30092E071 /* SceneDelegate.swift in Sources */,
-				A41F202827DF48FD0092E071 /* LoginView.swift in Sources */,
+				A41F204027DF59860092E071 /* LanguageView.swift in Sources */,
 				A41F201427DF48C30092E071 /* ContentView.swift in Sources */,
-				A41F202C27DF4B390092E071 /* LanguageView.swift in Sources */,
-				A41F203027DF4E4F0092E071 /* Screen.swift in Sources */,
+				A40BB1B327E04C6900D9BF7B /* LoginButtonView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
