@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		A40BB1B327E04C6900D9BF7B /* LoginButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A40BB1B227E04C6900D9BF7B /* LoginButtonView.swift */; };
 		A411973427E08FA40081DD13 /* LoginTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = A411973327E08FA40081DD13 /* LoginTextField.swift */; };
+		A41C159727E1CBDD0017139B /* TransferView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A41C159627E1CBDD0017139B /* TransferView.swift */; };
 		A41F201027DF48C30092E071 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A41F200F27DF48C30092E071 /* AppDelegate.swift */; };
 		A41F201227DF48C30092E071 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A41F201127DF48C30092E071 /* SceneDelegate.swift */; };
 		A41F201427DF48C30092E071 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A41F201327DF48C30092E071 /* ContentView.swift */; };
@@ -24,11 +25,16 @@
 		A43A72CE27E18F9B006DEA88 /* ResultTextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A43A72CD27E18F9B006DEA88 /* ResultTextView.swift */; };
 		A43A72D427E1A057006DEA88 /* TransferConfirm.swift in Sources */ = {isa = PBXBuildFile; fileRef = A43A72D327E1A057006DEA88 /* TransferConfirm.swift */; };
 		A43A72D927E1A129006DEA88 /* NavigationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A43A72D827E1A129006DEA88 /* NavigationView.swift */; };
+		A43BA98127E1DAEC00CC9FBF /* AccountExternalView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A43BA98027E1DAEC00CC9FBF /* AccountExternalView.swift */; };
+		A43BA98527E1DB5B00CC9FBF /* AccountExternal.swift in Sources */ = {isa = PBXBuildFile; fileRef = A43BA98427E1DB5B00CC9FBF /* AccountExternal.swift */; };
+		A43BA98E27E1ED9400CC9FBF /* AccountInternal.swift in Sources */ = {isa = PBXBuildFile; fileRef = A43BA98D27E1ED9400CC9FBF /* AccountInternal.swift */; };
+		A43BA99227E1EE8500CC9FBF /* AccountInternalView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A43BA99127E1EE8500CC9FBF /* AccountInternalView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		A40BB1B227E04C6900D9BF7B /* LoginButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginButtonView.swift; sourceTree = "<group>"; };
 		A411973327E08FA40081DD13 /* LoginTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginTextField.swift; sourceTree = "<group>"; };
+		A41C159627E1CBDD0017139B /* TransferView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransferView.swift; sourceTree = "<group>"; };
 		A41F200C27DF48C30092E071 /* MobioBankSwiftUI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MobioBankSwiftUI.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A41F200F27DF48C30092E071 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A41F201127DF48C30092E071 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -46,6 +52,10 @@
 		A43A72CD27E18F9B006DEA88 /* ResultTextView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResultTextView.swift; sourceTree = "<group>"; };
 		A43A72D327E1A057006DEA88 /* TransferConfirm.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransferConfirm.swift; sourceTree = "<group>"; };
 		A43A72D827E1A129006DEA88 /* NavigationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationView.swift; sourceTree = "<group>"; };
+		A43BA98027E1DAEC00CC9FBF /* AccountExternalView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AccountExternalView.swift; sourceTree = "<group>"; };
+		A43BA98427E1DB5B00CC9FBF /* AccountExternal.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountExternal.swift; sourceTree = "<group>"; };
+		A43BA98D27E1ED9400CC9FBF /* AccountInternal.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountInternal.swift; sourceTree = "<group>"; };
+		A43BA99127E1EE8500CC9FBF /* AccountInternalView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountInternalView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +69,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		A41C159527E1CBCC0017139B /* Transfer */ = {
+			isa = PBXGroup;
+			children = (
+				A43BA99027E1EE7600CC9FBF /* Cell */,
+				A41C159627E1CBDD0017139B /* TransferView.swift */,
+			);
+			path = Transfer;
+			sourceTree = "<group>";
+		};
 		A41F200327DF48C30092E071 = {
 			isa = PBXGroup;
 			children = (
@@ -78,6 +97,7 @@
 		A41F200E27DF48C30092E071 /* MobioBankSwiftUI */ = {
 			isa = PBXGroup;
 			children = (
+				A43BA98327E1DB4D00CC9FBF /* Model */,
 				A43A72C827E1897C006DEA88 /* CustomView */,
 				A41F203B27DF59860092E071 /* Scenes */,
 				A41F202E27DF4E400092E071 /* Utils */,
@@ -111,6 +131,7 @@
 		A41F203B27DF59860092E071 /* Scenes */ = {
 			isa = PBXGroup;
 			children = (
+				A41C159527E1CBCC0017139B /* Transfer */,
 				A43A72D227E19FBF006DEA88 /* TransferConfirm */,
 				A43A72C027E185F4006DEA88 /* TransferSuccess */,
 				A41F203C27DF59860092E071 /* Login */,
@@ -154,6 +175,24 @@
 				A43A72D327E1A057006DEA88 /* TransferConfirm.swift */,
 			);
 			path = TransferConfirm;
+			sourceTree = "<group>";
+		};
+		A43BA98327E1DB4D00CC9FBF /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				A43BA98427E1DB5B00CC9FBF /* AccountExternal.swift */,
+				A43BA98D27E1ED9400CC9FBF /* AccountInternal.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		A43BA99027E1EE7600CC9FBF /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				A43BA98027E1DAEC00CC9FBF /* AccountExternalView.swift */,
+				A43BA99127E1EE8500CC9FBF /* AccountInternalView.swift */,
+			);
+			path = Cell;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -226,7 +265,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A43BA98E27E1ED9400CC9FBF /* AccountInternal.swift in Sources */,
 				A43A72D927E1A129006DEA88 /* NavigationView.swift in Sources */,
+				A43BA99227E1EE8500CC9FBF /* AccountInternalView.swift in Sources */,
+				A43BA98527E1DB5B00CC9FBF /* AccountExternal.swift in Sources */,
+				A41C159727E1CBDD0017139B /* TransferView.swift in Sources */,
 				A41F203527DF58F40092E071 /* Screen.swift in Sources */,
 				A43A72BD27E178CD006DEA88 /* TouchIDButton.swift in Sources */,
 				A411973427E08FA40081DD13 /* LoginTextField.swift in Sources */,
@@ -240,6 +283,7 @@
 				A41F201427DF48C30092E071 /* ContentView.swift in Sources */,
 				A40BB1B327E04C6900D9BF7B /* LoginButtonView.swift in Sources */,
 				A43A72CA27E189B5006DEA88 /* TitleTextView.swift in Sources */,
+				A43BA98127E1DAEC00CC9FBF /* AccountExternalView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

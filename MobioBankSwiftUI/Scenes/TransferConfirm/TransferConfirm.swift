@@ -18,7 +18,7 @@ struct TransferConfirm: View {
                     .multilineTextAlignment(.center)
                     .foregroundColor(Color(#colorLiteral(red: 0.2, green: 0.2, blue: 0.2, alpha: 0.5)))
             }
-            .frame(width: Screen.width, height: 68, alignment: .center)
+            .frame(maxWidth: .infinity, maxHeight: 68, alignment: .center)
             .background(Color(#colorLiteral(red: 0, green: 0.5333333333, blue: 0.8588235294, alpha: 0.02)))
             VStack(spacing: 16) {
                 HStack {
@@ -66,7 +66,7 @@ struct TransferConfirm: View {
                 .padding(.trailing, 16)
             Spacer()
         }
-        .frame(width: Screen.width, alignment: .center)
+        .frame(maxWidth: .infinity, alignment: .center)
         .ignoresSafeArea()
     }
     

@@ -33,7 +33,7 @@ struct LoginTextField_Previews: PreviewProvider {
             LoginTextField(placeHolderText: "Email/ Số điện thoại")
             LoginTextField(placeHolderText: "Mật khẩu")
         }
-        .frame(width: Screen.width, height: Screen.height, alignment: /*@START_MENU_TOKEN@*/.center/*@END_MENU_TOKEN@*/)
+        .frame(maxWidth: .infinity, maxHeight: .infinity, alignment: /*@START_MENU_TOKEN@*/.center/*@END_MENU_TOKEN@*/)
         .background(Color.green)
         .ignoresSafeArea()
     }

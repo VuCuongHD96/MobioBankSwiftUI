@@ -66,7 +66,7 @@ struct TransferSuccessView: View {
                 .padding(.trailing, 16)
             Spacer()
         }
-        .frame(width: Screen.width, alignment: /*@START_MENU_TOKEN@*/.center/*@END_MENU_TOKEN@*/)
+        .frame(maxWidth: .infinity, alignment: /*@START_MENU_TOKEN@*/.center/*@END_MENU_TOKEN@*/)
         .ignoresSafeArea()
     }
     
