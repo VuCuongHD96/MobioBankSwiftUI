@@ -22,6 +22,8 @@
 		A43A72C627E1876C006DEA88 /* TransferSuccessView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A43A72C527E1876C006DEA88 /* TransferSuccessView.swift */; };
 		A43A72CA27E189B5006DEA88 /* TitleTextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A43A72C927E189B5006DEA88 /* TitleTextView.swift */; };
 		A43A72CE27E18F9B006DEA88 /* ResultTextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A43A72CD27E18F9B006DEA88 /* ResultTextView.swift */; };
+		A43A72D427E1A057006DEA88 /* TransferConfirm.swift in Sources */ = {isa = PBXBuildFile; fileRef = A43A72D327E1A057006DEA88 /* TransferConfirm.swift */; };
+		A43A72D927E1A129006DEA88 /* NavigationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A43A72D827E1A129006DEA88 /* NavigationView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -42,6 +44,8 @@
 		A43A72C527E1876C006DEA88 /* TransferSuccessView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransferSuccessView.swift; sourceTree = "<group>"; };
 		A43A72C927E189B5006DEA88 /* TitleTextView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TitleTextView.swift; sourceTree = "<group>"; };
 		A43A72CD27E18F9B006DEA88 /* ResultTextView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResultTextView.swift; sourceTree = "<group>"; };
+		A43A72D327E1A057006DEA88 /* TransferConfirm.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransferConfirm.swift; sourceTree = "<group>"; };
+		A43A72D827E1A129006DEA88 /* NavigationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -107,6 +111,7 @@
 		A41F203B27DF59860092E071 /* Scenes */ = {
 			isa = PBXGroup;
 			children = (
+				A43A72D227E19FBF006DEA88 /* TransferConfirm */,
 				A43A72C027E185F4006DEA88 /* TransferSuccess */,
 				A41F203C27DF59860092E071 /* Login */,
 			);
@@ -138,8 +143,17 @@
 			children = (
 				A43A72C927E189B5006DEA88 /* TitleTextView.swift */,
 				A43A72CD27E18F9B006DEA88 /* ResultTextView.swift */,
+				A43A72D827E1A129006DEA88 /* NavigationView.swift */,
 			);
 			path = CustomView;
+			sourceTree = "<group>";
+		};
+		A43A72D227E19FBF006DEA88 /* TransferConfirm */ = {
+			isa = PBXGroup;
+			children = (
+				A43A72D327E1A057006DEA88 /* TransferConfirm.swift */,
+			);
+			path = TransferConfirm;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -212,10 +226,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A43A72D927E1A129006DEA88 /* NavigationView.swift in Sources */,
 				A41F203527DF58F40092E071 /* Screen.swift in Sources */,
 				A43A72BD27E178CD006DEA88 /* TouchIDButton.swift in Sources */,
 				A411973427E08FA40081DD13 /* LoginTextField.swift in Sources */,
 				A41F203F27DF59860092E071 /* LoginView.swift in Sources */,
+				A43A72D427E1A057006DEA88 /* TransferConfirm.swift in Sources */,
 				A41F201027DF48C30092E071 /* AppDelegate.swift in Sources */,
 				A43A72C627E1876C006DEA88 /* TransferSuccessView.swift in Sources */,
 				A43A72CE27E18F9B006DEA88 /* ResultTextView.swift in Sources */,
