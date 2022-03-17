@@ -7,7 +7,9 @@
 
 import SwiftUI
 
-struct HomeView: View {
+struct HomeView: View, Identifiable {
+    var id = UUID()
+    
     
     let columns = Array(repeating: GridItem(.flexible()), count: 3)
     let menuArray = [

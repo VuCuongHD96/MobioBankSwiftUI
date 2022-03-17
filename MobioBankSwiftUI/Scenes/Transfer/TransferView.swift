@@ -7,8 +7,8 @@
 
 import SwiftUI
 
-struct TransferView: View {
-    
+struct TransferView: View, Identifiable {
+    var id = UUID()
     let accountInternalArray = [
         AccountInternal(name: "NGUYEN THU PHU..."),
         AccountInternal(name: "NGUYEN THI TRANG"),

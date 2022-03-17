@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="24px" height="24px" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>icon/ account_active</title>
+    <g id="icon/-account_active" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="user">
+            <path d="M24,0 L24,24 L0,24 L0,0 L24,0 Z" id="Vector" opacity="0"></path>
+            <path d="M12.0001564,14.5 C17.0101566,14.5 21.0901566,17.8600001 21.0901566,22 C21.0901566,22.28 20.8701566,22.5 20.5901566,22.5 L20.5901566,22.5 L3.41015625,22.5 C3.13015625,22.5 2.91015625,22.28 2.91015625,22 C2.91015625,17.8600001 6.99015617,14.5 12.0001564,14.5 Z M12,2 C14.7614238,2 17,4.23857617 17,7 C17,9.76142383 14.7614238,12 12,12 C9.23857617,12 7,9.76142383 7,7 C7,4.23857617 9.23857617,2 12,2 Z" id="Combined-Shape" fill="#0088DB"></path>
+        </g>
+    </g>
+</svg>
