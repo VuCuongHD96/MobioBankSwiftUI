@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="32px" height="32px" viewBox="0 0 32 32" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>icon/ payment</title>
+    <g id="icon/-payment" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="dollar-square">
+            <g id="Group-575" transform="translate(11.562500, 8.000000)" fill-rule="nonzero" stroke="#99D0F1" stroke-dasharray="0,0" stroke-linecap="round" stroke-linejoin="round" stroke-width="2">
+                <path d="M0,11.106458 C0,12.826458 1.32000033,14.2131246 2.96000036,14.2131246 L6.30666606,14.2131246 C7.73333279,14.2131246 8.89333344,12.9997916 8.89333344,11.5064583 C8.89333344,9.87979158 8.1866672,9.30645788 7.13333384,8.93312454 L1.75999959,7.06645838 C0.706666231,6.69312505 0,6.11979135 0,4.49312464 C0,2.9997913 1.15999937,1.78645833 2.58666611,1.78645833 L5.93333308,1.78645833 C7.5733331,1.78645833 8.89333344,3.17312495 8.89333344,4.8931249" id="Vector"></path>
+                <line x1="4.4375" y1="0" x2="4.4375" y2="16" id="Vector"></line>
+            </g>
+            <path d="M12,29.3333333 C5.33333333,29.3333333 2.66666667,26.6666667 2.66666667,20 L2.66666667,12 C2.66666667,5.33333333 5.33333333,2.66666667 12,2.66666667 L20,2.66666667 C26.6666667,2.66666667 29.3333333,5.33333333 29.3333333,12 L29.3333333,20 C29.3333333,26.6666667 26.6666667,29.3333333 20,29.3333333 L12,29.3333333 Z" id="Vector" stroke="#0088DB" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="0,0" fill-rule="nonzero"></path>
+            <path d="M32,0 L32,32 L0,32 L0,0 L32,0 Z" id="Vector" opacity="0"></path>
+        </g>
+    </g>
+</svg>

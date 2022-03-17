@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="32px" height="32px" viewBox="0 0 32 32" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>icon/ receive</title>
+    <g id="icon/-receive" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="card-receive">
+            <line x1="2.66666667" y1="11.3333333" x2="19.3333333" y2="11.3333333" id="Vector" stroke="#0088DB" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="0,0"></line>
+            <line x1="8" y1="22" x2="10.6666667" y2="22" id="Vector" stroke="#0088DB" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="0,0"></line>
+            <line x1="14" y1="22" x2="19.3333333" y2="22" id="Vector" stroke="#0088DB" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="0,0"></line>
+            <path d="M29.3333333,18.7066663 L29.3333333,21.4800008 C29.3333333,26.1600008 28.1466659,27.3333333 23.4133326,27.3333333 L8.58666674,27.3333333 C3.85333347,27.3333333 2.66666667,26.1600008 2.66666667,21.4800008 L2.66666667,10.5199998 C2.66666667,5.83999983 3.85333347,4.66666667 8.58666674,4.66666667 L19.3333333,4.66666667" id="Vector" stroke="#0088DB" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="0,0" fill-rule="nonzero"></path>
+            <g id="Group-570" transform="translate(24.000000, 4.666667)" stroke="#99D0F1" stroke-dasharray="0,0" stroke-linecap="round" stroke-linejoin="round" stroke-width="2">
+                <path d="M2.66666667,0 L2.66666667,8 L5.33333333,5.33333333" id="Vector" fill-rule="nonzero"></path>
+                <line x1="2.66666667" y1="8" x2="0" y2="5.33333333" id="Vector"></line>
+            </g>
+            <path d="M32,0 L32,32 L0,32 L0,0 L32,0 Z" id="Vector" opacity="0"></path>
+        </g>
+    </g>
+</svg>

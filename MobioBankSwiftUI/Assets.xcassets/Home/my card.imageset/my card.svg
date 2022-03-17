@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="32px" height="32px" viewBox="0 0 32 32" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>icon/ my card</title>
+    <g id="icon/-my-card" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="card-pos">
+            <line x1="5.23958333" y1="21.1722654" x2="21.1729164" y2="5.23893229" id="Vector" stroke="#99CFF1" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="0,0"></line>
+            <line x1="14.8020833" y1="24.3721364" x2="16.4020831" y2="22.7721354" id="Vector" stroke="#99CFF1" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="0,0"></line>
+            <line x1="18.390625" y1="20.7849744" x2="21.5772921" y2="17.5983073" id="Vector" stroke="#99CFF1" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="0,0"></line>
+            <path d="M13.6550268,4.79866711 C16.4816933,1.9720006 17.8950278,1.95866728 20.6950277,4.75866715 L27.2416941,11.3053335 C30.041694,14.1053333 30.0283597,15.5186679 27.2016932,18.3453344 L18.3483607,27.1986669 C15.5216942,30.0253334 14.108359,30.0386677 11.3083591,27.2386678 L4.76169332,20.6920013 C1.96169345,17.8920015 1.96169313,16.4920006 4.80169328,13.6520004 L13.6550268,4.79866711 Z" id="Vector" stroke="#0088DB" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="0,0" fill-rule="nonzero"></path>
+            <line x1="2.66666667" y1="29.3313802" x2="29.3333333" y2="29.3313802" id="Vector" stroke="#0088DB" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="0,0"></line>
+            <path d="M32,0 L32,32 L0,32 L0,0 L32,0 Z" id="Vector" opacity="0"></path>
+        </g>
+    </g>
+</svg>
