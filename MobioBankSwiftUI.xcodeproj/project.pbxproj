@@ -29,6 +29,9 @@
 		A43BA98527E1DB5B00CC9FBF /* AccountExternal.swift in Sources */ = {isa = PBXBuildFile; fileRef = A43BA98427E1DB5B00CC9FBF /* AccountExternal.swift */; };
 		A43BA98E27E1ED9400CC9FBF /* AccountInternal.swift in Sources */ = {isa = PBXBuildFile; fileRef = A43BA98D27E1ED9400CC9FBF /* AccountInternal.swift */; };
 		A43BA99227E1EE8500CC9FBF /* AccountInternalView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A43BA99127E1EE8500CC9FBF /* AccountInternalView.swift */; };
+		A46303A327E2EE8800EC2DE3 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A46303A227E2EE8800EC2DE3 /* HomeView.swift */; };
+		A46303A727E2F0E400EC2DE3 /* MenuView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A46303A627E2F0E400EC2DE3 /* MenuView.swift */; };
+		A46303AA27E2F15600EC2DE3 /* Menu.swift in Sources */ = {isa = PBXBuildFile; fileRef = A46303A927E2F15600EC2DE3 /* Menu.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -56,6 +59,9 @@
 		A43BA98427E1DB5B00CC9FBF /* AccountExternal.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountExternal.swift; sourceTree = "<group>"; };
 		A43BA98D27E1ED9400CC9FBF /* AccountInternal.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountInternal.swift; sourceTree = "<group>"; };
 		A43BA99127E1EE8500CC9FBF /* AccountInternalView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountInternalView.swift; sourceTree = "<group>"; };
+		A46303A227E2EE8800EC2DE3 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		A46303A627E2F0E400EC2DE3 /* MenuView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuView.swift; sourceTree = "<group>"; };
+		A46303A927E2F15600EC2DE3 /* Menu.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Menu.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -131,6 +137,7 @@
 		A41F203B27DF59860092E071 /* Scenes */ = {
 			isa = PBXGroup;
 			children = (
+				A46303A127E2EE7F00EC2DE3 /* Home */,
 				A41C159527E1CBCC0017139B /* Transfer */,
 				A43A72D227E19FBF006DEA88 /* TransferConfirm */,
 				A43A72C027E185F4006DEA88 /* TransferSuccess */,
@@ -182,6 +189,7 @@
 			children = (
 				A43BA98427E1DB5B00CC9FBF /* AccountExternal.swift */,
 				A43BA98D27E1ED9400CC9FBF /* AccountInternal.swift */,
+				A46303A927E2F15600EC2DE3 /* Menu.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -191,6 +199,23 @@
 			children = (
 				A43BA98027E1DAEC00CC9FBF /* AccountExternalView.swift */,
 				A43BA99127E1EE8500CC9FBF /* AccountInternalView.swift */,
+			);
+			path = Cell;
+			sourceTree = "<group>";
+		};
+		A46303A127E2EE7F00EC2DE3 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				A46303A227E2EE8800EC2DE3 /* HomeView.swift */,
+				A46303A527E2F0B700EC2DE3 /* Cell */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		A46303A527E2F0B700EC2DE3 /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				A46303A627E2F0E400EC2DE3 /* MenuView.swift */,
 			);
 			path = Cell;
 			sourceTree = "<group>";
@@ -272,13 +297,16 @@
 				A41C159727E1CBDD0017139B /* TransferView.swift in Sources */,
 				A41F203527DF58F40092E071 /* Screen.swift in Sources */,
 				A43A72BD27E178CD006DEA88 /* TouchIDButton.swift in Sources */,
+				A46303A727E2F0E400EC2DE3 /* MenuView.swift in Sources */,
 				A411973427E08FA40081DD13 /* LoginTextField.swift in Sources */,
 				A41F203F27DF59860092E071 /* LoginView.swift in Sources */,
 				A43A72D427E1A057006DEA88 /* TransferConfirm.swift in Sources */,
 				A41F201027DF48C30092E071 /* AppDelegate.swift in Sources */,
 				A43A72C627E1876C006DEA88 /* TransferSuccessView.swift in Sources */,
 				A43A72CE27E18F9B006DEA88 /* ResultTextView.swift in Sources */,
+				A46303A327E2EE8800EC2DE3 /* HomeView.swift in Sources */,
 				A41F201227DF48C30092E071 /* SceneDelegate.swift in Sources */,
+				A46303AA27E2F15600EC2DE3 /* Menu.swift in Sources */,
 				A41F204027DF59860092E071 /* LanguageView.swift in Sources */,
 				A41F201427DF48C30092E071 /* ContentView.swift in Sources */,
 				A40BB1B327E04C6900D9BF7B /* LoginButtonView.swift in Sources */,
