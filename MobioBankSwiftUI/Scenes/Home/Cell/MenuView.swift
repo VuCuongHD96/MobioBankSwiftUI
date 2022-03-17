@@ -17,6 +17,7 @@ struct MenuView: View {
                 .frame(width: 32, height: 32, alignment: .center)
             Text(menu.name)
                 .foregroundColor(Color(#colorLiteral(red: 0.2, green: 0.2, blue: 0.2, alpha: 1)))
+                .fontWeight(.regular)
         }
         .frame(width: 93, height: 93, alignment: .center)
     }

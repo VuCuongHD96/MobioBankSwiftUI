@@ -19,6 +19,7 @@
 		A41F203527DF58F40092E071 /* Screen.swift in Sources */ = {isa = PBXBuildFile; fileRef = A41F203427DF58F40092E071 /* Screen.swift */; };
 		A41F203F27DF59860092E071 /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A41F203D27DF59860092E071 /* LoginView.swift */; };
 		A41F204027DF59860092E071 /* LanguageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A41F203E27DF59860092E071 /* LanguageView.swift */; };
+		A4230CD027E316E700B5A55C /* BalanceView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4230CCF27E316E700B5A55C /* BalanceView.swift */; };
 		A43A72BD27E178CD006DEA88 /* TouchIDButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = A43A72BC27E178CD006DEA88 /* TouchIDButton.swift */; };
 		A43A72C627E1876C006DEA88 /* TransferSuccessView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A43A72C527E1876C006DEA88 /* TransferSuccessView.swift */; };
 		A43A72CA27E189B5006DEA88 /* TitleTextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A43A72C927E189B5006DEA88 /* TitleTextView.swift */; };
@@ -49,6 +50,7 @@
 		A41F203427DF58F40092E071 /* Screen.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Screen.swift; sourceTree = "<group>"; };
 		A41F203D27DF59860092E071 /* LoginView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
 		A41F203E27DF59860092E071 /* LanguageView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LanguageView.swift; sourceTree = "<group>"; };
+		A4230CCF27E316E700B5A55C /* BalanceView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BalanceView.swift; sourceTree = "<group>"; };
 		A43A72BC27E178CD006DEA88 /* TouchIDButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TouchIDButton.swift; sourceTree = "<group>"; };
 		A43A72C527E1876C006DEA88 /* TransferSuccessView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransferSuccessView.swift; sourceTree = "<group>"; };
 		A43A72C927E189B5006DEA88 /* TitleTextView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TitleTextView.swift; sourceTree = "<group>"; };
@@ -207,6 +209,7 @@
 			isa = PBXGroup;
 			children = (
 				A46303A227E2EE8800EC2DE3 /* HomeView.swift */,
+				A4230CCF27E316E700B5A55C /* BalanceView.swift */,
 				A46303A527E2F0B700EC2DE3 /* Cell */,
 			);
 			path = Home;
@@ -296,6 +299,7 @@
 				A43BA98527E1DB5B00CC9FBF /* AccountExternal.swift in Sources */,
 				A41C159727E1CBDD0017139B /* TransferView.swift in Sources */,
 				A41F203527DF58F40092E071 /* Screen.swift in Sources */,
+				A4230CD027E316E700B5A55C /* BalanceView.swift in Sources */,
 				A43A72BD27E178CD006DEA88 /* TouchIDButton.swift in Sources */,
 				A46303A727E2F0E400EC2DE3 /* MenuView.swift in Sources */,
 				A411973427E08FA40081DD13 /* LoginTextField.swift in Sources */,

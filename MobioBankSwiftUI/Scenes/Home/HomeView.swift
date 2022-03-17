@@ -20,38 +20,46 @@ struct HomeView: View {
     ]
     
     var body: some View {
-        VStack {
-            
+        VStack(spacing: 0) {
             ZStack {
                 Image("background_home")
                     .resizable()
                     .frame(maxWidth: .infinity, maxHeight: 188)
-                HStack(spacing: 0) {
-                    Image("avatar")
-                        .resizable()
-                        .frame(maxWidth: 48, maxHeight: 48)
-                        .clipShape(Circle())
-                    VStack(alignment: .leading, spacing: 4) {
-                        Text("Xin chào,")
-                            .foregroundColor(.white)
-                            .fontWeight(.regular)
-                            .font(.system(size: 13))
-                        Text("Vũ Cương")
-                            .foregroundColor(.white)
-                            .fontWeight(.semibold)
-                            .font(.system(size: 15))
-                            .padding(.top, 4)
+                VStack(spacing: 0) {
+                    HStack(spacing: 0) {
+                        Image("avatar")
+                            .resizable()
+                            .frame(maxWidth: 48, maxHeight: 48)
+                            .clipShape(Circle())
+                        VStack(alignment: .leading, spacing: 4) {
+                            Text("Xin chào,")
+                                .foregroundColor(.white)
+                                .fontWeight(.regular)
+                                .font(.system(size: 13))
+                            Text("Vũ Cương")
+                                .foregroundColor(.white)
+                                .fontWeight(.semibold)
+                                .font(.system(size: 15))
+                                .padding(.top, 4)
+                        }
+                        .padding(.leading, 16)
+                        Spacer()
                     }
-                    .padding(.leading, 16)
-                    Spacer()
                 }
                 .padding(.leading, 16)
+                .padding(.trailing, 16)
             }
-            
-            LazyVGrid(columns: columns) {
-                ForEach(menuArray) { item in
-                    MenuView(menu: item)
+            VStack(spacing: 0) {
+                BalanceView()
+                    .padding(.top, -50)
+                    .padding(.leading, 16)
+                    .padding(.trailing, 16)
+                LazyVGrid(columns: columns) {
+                    ForEach(menuArray) { item in
+                        MenuView(menu: item)
+                    }
                 }
+                .padding(.top, 32)
             }
             Spacer()
         }
