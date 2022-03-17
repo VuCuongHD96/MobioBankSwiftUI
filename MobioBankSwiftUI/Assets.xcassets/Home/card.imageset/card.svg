@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="32px" height="32px" viewBox="0 0 32 32" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>icon/ card</title>
+    <g id="icon/-card" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="cards">
+            <line x1="2.66666667" y1="16.813151" x2="25.3333333" y2="16.813151" id="Vector" stroke="#0088DB" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="0,0"></line>
+            <path d="M29.3333333,18.293335 C29.3333333,21.893335 28.4933332,23.0533337 25.3333333,23.2400004 L25.3333333,13.706665 C25.3333333,9.73333168 24.3199609,8.73333232 20.2932943,8.73333232 L7.70670573,8.73333232 C7.33337239,8.73333232 6.98666666,8.74666626 6.66666667,8.75999959 C6.70666667,4.95999972 7.74670569,4 11.7067057,4 L24.2932943,4 C28.3199609,4 29.3333333,5 29.3333333,8.97333272 L29.3333333,18.293335 Z" id="Vector" stroke="#99CFF1" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="0,0" fill-rule="nonzero"></path>
+            <line x1="7" y1="23.7467448" x2="9.29329427" y2="23.7467448" id="Vector" stroke="#99CFF1" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="0,0"></line>
+            <line x1="12.1458333" y1="23.7467448" x2="16.7325033" y2="23.7467448" id="Vector" stroke="#99CFF1" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="0,0"></line>
+            <path d="M32,0 L32,32 L0,32 L0,0 L32,0 Z" id="Vector" opacity="0"></path>
+            <path d="M25.3333333,23.239741 C25.2933333,27.0397409 24.2532943,27.9997406 20.2932943,27.9997406 L7.70670573,27.9997406 C3.68003909,27.9997406 2.66666667,26.9997412 2.66666667,23.0264079 L2.66666667,13.7064056 C2.66666667,10.1064056 3.50666682,8.94640686 6.66666667,8.75974019 C6.98666666,8.74640686 7.33337239,8.73307292 7.70670573,8.73307292 L20.2932943,8.73307292 C24.3199609,8.73307292 25.3333333,9.73307292 25.3333333,13.7064056 L25.3333333,23.239741 Z" id="Vector" stroke="#0088DB" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="0,0" fill-rule="nonzero"></path>
+        </g>
+    </g>
+</svg>
